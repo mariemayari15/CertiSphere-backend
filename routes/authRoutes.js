@@ -303,7 +303,6 @@ The link expires in 1 hour. If you didn’t request this, just ignore the e-mail
   }
 });
 
-// GET my profile 
 router.get('/profile', auth, async (req, res) => {
   try {
     const { userId } = req.user;
